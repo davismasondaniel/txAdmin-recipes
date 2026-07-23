@@ -3,7 +3,8 @@ This repository is the index for the list of "Popular Recipes" (aka server templ
 Please check the **[Recipe Documentation Page](https://github.com/tabarra/txAdmin/blob/master/docs/recipe.md)** if you want to know more.
 
 ## Popular recipes:
-- [FiveM Basic Server](./default-fivem/)
+- [FiveM Basic Server (Legacy)](./default-fivem/)
+- [FiveM Basic Server (Enhanced)](./default-fivem-enhanced/)
 - [RedM Basic Server](./default-redm/)
 - [ESX Legacy](https://github.com/esx-framework/ESX-recipes)
 - [Qbox Framework](https://github.com/Qbox-project/txAdminRecipe)

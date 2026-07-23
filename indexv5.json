@@ -1,0 +1,37 @@
+[
+    {
+        "engine": 3,
+        "name": "FiveM Basic Server (Enhanced)",
+        "tags": ["fivem"],
+        "description": "A minimal server, without framework, with just the config required to run a FiveM server.",
+        "url": "https://raw.githubusercontent.com/citizenfx/txAdmin-recipes/refs/heads/main/default-fivem-enhanced/recipe.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "ESX Legacy",
+        "tags": ["fivem", "roleplay"],
+        "description": "The official recipe of the most popular FiveM RP framework, containing Jobs, Housing, Vehicles & more!",
+        "url": "https://raw.githubusercontent.com/esx-framework/ESX-recipes/legacy/recipe.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "Qbox",
+        "tags": ["fivem", "roleplay"],
+        "description": "The most modern and optimized framework, while compatible with QBCore resources.",
+        "url": "https://raw.githubusercontent.com/Qbox-project/txAdminRecipe/refs/heads/main/qbox.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "QBCore",
+        "tags": ["fivem", "roleplay"],
+        "description": "An advanced FiveM RP framework including jobs, gangs, housing & more!",
+        "url": "https://raw.githubusercontent.com/qbcore-framework/txAdminRecipe/main/qbcore.yaml"
+    },
+    {
+        "engine": 3,
+        "name": "StreetKings",
+        "tags": ["fivem", "racing"],
+        "description": "Race solo or compete against other players to level up your character and vehicle via missions and daily events.",
+        "url": "https://raw.githubusercontent.com/streetkings-fivem/txAdminRecipe/refs/heads/main/streetkings.yaml"
+    }
+]
