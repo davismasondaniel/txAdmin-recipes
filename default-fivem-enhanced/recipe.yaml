@@ -1,5 +1,4 @@
 $engine: 3
-$onesync: on
 name: FiveM Basic Server
 description: Recipe for the base resources required to run a minimal FiveM server.
 
@@ -9,11 +8,35 @@ tasks:
     src: https://github.com/citizenfx/cfx-server-data
     ref: master
     subpath: resources
-    dest: ./resources
+    dest: ./tmp
 
-  # Remove the old chat resource
+  # Copy only the resources we might want
+  - action: ensure_dir
+    path: ./resources
+    
+  - action: move_path
+    src: ./tmp/[gamemodes]/basic-gamemode/
+    dest: ./resources/basic-gamemode/
+    
+  - action: move_path
+    src: ./tmp/[managers]/mapmanager/
+    dest: ./resources/mapmanager/
+    
+  - action: move_path
+    src: ./tmp/[managers]/spawnmanager/
+    dest: ./resources/spawnmanager/
+    
+  - action: move_path
+    src: ./tmp/[gamemodes]/[maps]/fivem-map-hipster/
+    dest: ./resources/[maps]/fivem-map-hipster/
+    
+  - action: move_path
+    src: ./tmp/[gamemodes]/[maps]/fivem-map-skater/
+    dest: ./resources/[maps]/fivem-map-skater/
+
+  # Clean up
   - action: remove_path
-    path: ./resources/[gameplay]/chat
+    path: ./tmp
 
   # Download default server.cfg for FiveM
   - action: download_file
